@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f6f8fb;
+    color: #1f2937;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.logo-area img {
+    height: 36px;
+}
+
+.header-actions button {
+    margin-left: 10px;
+}
+
+/* BUTTONS */
+button {
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #2563eb;
+    color: #fff;
+}
+
+.btn-outline {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+}
+
+.btn-secondary {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+}
+
+.btn-main {
+    background: #3b82f6;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 50px 20px 30px;
+}
+
+.hero span {
+    color: #2563eb;
+}
+
+/* AD AREA */
+.ad-area {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.ad-slot {
+    background: #e5e7eb;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6b7280;
+    font-weight: bold;
+}
+
+/* ACTIONS */
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.actions small {
+    display: block;
+    font-size: 11px;
+    opacity: 0.7;
+}
